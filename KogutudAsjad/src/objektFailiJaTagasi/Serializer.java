@@ -22,6 +22,7 @@ public class Serializer {
 	   GLOBAL.aadressid.add(address);
 	   String str=address.getCountry();
 	   System.out.println(str);
+	   System.out.println(GLOBAL.aadressid.get(0).getCountry());
 	   System.out.println(GLOBAL.aadressid.size());
 //	   GLOBAL.v1=address;
 	   address.setStreet("Sütiste");
@@ -29,15 +30,17 @@ public class Serializer {
 	   GLOBAL.aadressid.add(address);
 	   String str2=address.getCountry();
 	   System.out.println(str2);
+	   System.out.println(GLOBAL.aadressid.get(0).getCountry());
 	   System.out.println(GLOBAL.aadressid.size());
 	   
 	  // String str = objektFailiJaTagasi.GLOBAL.aadressid(1).getStreet();
 //	   GLOBAL.v2=address;
-	   Address[]aadressidejada= new Address[(GLOBAL.aadressid.size())];
+	   Address[] aadressidejada= new Address[(GLOBAL.aadressid.size())];
 	  aadressidejada=GLOBAL.aadressid.toArray(aadressidejada);
 	   Address aadressike;
 	   aadressike=GLOBAL.aadressid.get(0);
 	  System.out.println("....."+aadressike.country);
+	  System.out.println(GLOBAL.aadressid.get(0).getCountry());
 	  System.out.println(aadressidejada[0].street);
 	  System.out.println(aadressidejada[1].country);
 	  System.out.println(aadressidejada[1].street);

@@ -39,6 +39,15 @@ class Main {
 	 */
 	public static void main(String[] args) {
 		
+	
+			try {
+				objektfailijatagasi2.start.startimine();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	
+		System.exit(0);
 		objektFailiJaTagasi.Serializer.start(null);
 		objektFailiJaTagasi.Deserializer.start(null);
 		System.out.println("Size: "+objektFailiJaTagasi.GLOBAL.aadressid.size());
