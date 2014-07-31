@@ -1,12 +1,12 @@
 /**
  * Pelle fail
  */
-package Komponendid;
+package objektid;
 
 /**
  *
  */
-public class komponent {
+public class objekt {
 	String komponendinimi;
 	String CharName;
 	String LocationName;
@@ -18,7 +18,7 @@ public class komponent {
 	/**
 	 * Pelle konstruktor
 	 */
-	public komponent(String str0, String str1, String str2, double dbl1, double dbl2, double dbl3) 
+	public objekt(String str0, String str1, String str2, double dbl1, double dbl2, double dbl3) 
 	{
 	
 		super();

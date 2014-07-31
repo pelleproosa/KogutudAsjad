@@ -1,7 +1,7 @@
 /**
  * Pelle fail
  */
-package Komponendid;
+package objektid;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class GLOBAL {
 
-	public static List<komponent> GlobalScoreTxtRead = new ArrayList<komponent>();
+	public static List<objekt> GlobalScoreTxtRead = new ArrayList<objekt>();
 	public static int GlobalReaNumber;
 	public static String GlobalChariNimi;
 	public static double GlobalAdenaEarned;
@@ -20,7 +20,7 @@ public class GLOBAL {
 	public static String GlobalKomponendinimi;
 	public static String GlobalLocationName;
 	
-	public static komponent rida;
-	public static komponent TagasisideRida;
+	public static objekt rida;
+	public static objekt TagasisideRida;
 
 }

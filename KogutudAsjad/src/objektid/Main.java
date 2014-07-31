@@ -1,7 +1,9 @@
 /**
  * Pelle fail
  */
-package Komponendid;
+package objektid;
+
+import objektFailiJaTagasi.Address;
 
 
 
@@ -12,7 +14,7 @@ package Komponendid;
  */
 class Main {
 	
-	static void LooRida(komponent a,String aa, String ab, String b, double c, double d, double e){
+	static void LooRida(objekt a,String aa, String ab, String b, double c, double d, double e){
 		
 		
 		GLOBAL.GlobalReaNumber=GLOBAL.GlobalScoreTxtRead.size();
@@ -36,6 +38,16 @@ class Main {
 	 * @param args 
 	 */
 	public static void main(String[] args) {
+		
+		objektFailiJaTagasi.Serializer.start(null);
+		objektFailiJaTagasi.Deserializer.start(null);
+		System.out.println("Size: "+objektFailiJaTagasi.GLOBAL.aadressid.size());
+		//objektFailiJaTagasi.Address objekt1=objektFailiJaTagasi.GLOBAL.aadressid.get(1);
+		//objektFailiJaTagasi.Address objekt2=objektFailiJaTagasi.GLOBAL.aadressid.get(2);
+		System.exit(0);
+		
+		
+		
 		// TODO Auto-generated method stub
 		GLOBAL.GlobalKomponendinimi="rida1";
 		GLOBAL.GlobalLocationName="Execution Grounds";
@@ -45,7 +57,7 @@ class Main {
 		GLOBAL.GlobalAncientAdenaEarned=555;
 		GLOBAL.GlobalSpentTimeInSeconds=60;
 		
-		GLOBAL.rida = new komponent("","","",0,0,0);
+		GLOBAL.rida = new objekt("","","",0,0,0);
 		
 		LooRida(GLOBAL.rida,GLOBAL.GlobalKomponendinimi,GLOBAL.GlobalChariNimi,GLOBAL.GlobalLocationName,GLOBAL.GlobalAdenaEarned,GLOBAL.GlobalAncientAdenaEarned,GLOBAL.GlobalSpentTimeInSeconds);		
 		
