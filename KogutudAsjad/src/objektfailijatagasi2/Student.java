@@ -1,7 +1,11 @@
 package objektfailijatagasi2;
 
 import java.io.Serializable;
-
+/*
+ * 
+ * 			Lihtne objektivorm, kus igal objektil on üks String ja üks integer väärtus... võimalik omistada ja välja lugeda neid vastavalt  set  või  get variandiga  
+ * 
+ */
 
 	@SuppressWarnings("serial")
 	public class Student implements Serializable {
